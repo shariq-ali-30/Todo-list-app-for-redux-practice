@@ -9,7 +9,7 @@ function App() {
   const errorTimeout = useRef(null);
   const inputRef = useRef();
 
-  const todos = useSelector((state) => state.todoSlice.todos);
+  const todos = useSelector((state) => state.todo.todos);
   const dispatch = useDispatch();
   const [todoToEdit, settodoToEdit] = useState(null);
 
