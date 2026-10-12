@@ -2,63 +2,62 @@
 
 ## About The Project
 
-This project is a Todo List App built using React.js and Redux Toolkit.
-
-The purpose of this project was to practice Redux state management by building an interactive Todo List application. The project uses Redux Toolkit to manage todo data globally and Redux Persist to keep the todo list saved even after refreshing the page.
-
-The application allows users to add, edit, and delete tasks through a simple and responsive interface.
+A responsive Todo List application built with React and Redux Toolkit to practice centralized state management. Users can add, edit, and delete tasks, while Redux Persist saves the todo state so tasks remain available after refreshing the page.
 
 ## Technologies Used
 
-- React.js
-- JavaScript (ES6)
+- React
+- JavaScript (ES6+)
 - Redux Toolkit
 - React Redux
 - Redux Persist
-- HTML5
 - Tailwind CSS
 - Vite
-- Phosphor Icons
 
 ## Features
 
 - Add new tasks
 - Edit existing tasks
 - Delete tasks
-- Global todo state management using Redux Toolkit
-- Persistent todo data using Redux Persist
-- Todos remain available after page refresh
-- Empty-input validation
-- Error message when attempting to add an empty task
-- Automatic focus on the input field when validation fails
-- Automatic focus on the input field when editing a task
-- Dynamic Add Task and Update Task button states
-- Display all saved tasks dynamically
-- Empty state when there are no tasks
-- Responsive Todo List interface
+- Manage todo state with Redux Toolkit
+- Persist tasks across page refreshes using Redux Persist
+- Validate empty task input and display an error message
+- Automatically focus the input when adding or editing a task
+- Show an empty state when there are no tasks
 - Responsive layout for different screen sizes
-- Clean and minimal user interface
-- Task text truncation for long task titles
-- Edit and delete controls for each task
+- Truncate long task titles to keep the layout tidy
 
-## What I Learned
+## Getting Started
 
-Through this assignment, I learned:
+### Prerequisites
 
-- How to manage application state using Redux Toolkit
-- How to create a Redux store using `configureStore`
-- How to create reducers and actions using Redux Toolkit
-- How to use `useSelector` to access Redux state
-- How to use `useDispatch` to dispatch Redux actions
-- How to create and use a Todo slice
-- How to structure Redux logic using reducers and features
-- How to persist Redux state using Redux Persist
-- How to connect React components with Redux
-- How to handle add, edit, and delete operations through Redux actions
-- How to use React `useState`, `useEffect`, and `useRef`
-- How to handle form validation and user input
-- How to build a responsive interface using Tailwind CSS
-- How to structure a React application with Redux state management
+- Node.js and npm installed
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/shariq-ali-30/Todo-list-app-for-redux-practice.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Todo-list-app-for-redux-practice
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
 
 ## Author
 
